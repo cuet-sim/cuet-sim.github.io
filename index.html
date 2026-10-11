@@ -474,43 +474,59 @@
         function submitFeedback(isPositive) { alert(isPositive ? "Thanks for the Thumbs Up!" : "Thanks for the feedback."); }
     </script>
     <script>
-document.getElementById('visitor-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    const submitBtn = document.getElementById('v-submit');
-    submitBtn.innerHTML = 'Opening Simulator...';
-    submitBtn.disabled = true;
-
-    // Grab the user's answers
-    const name = document.getElementById('v-name').value;
-    const age = document.getElementById('v-age').value;
-    const email = document.getElementById('v-email').value;
-
-    // Map them to your specific Google Form hidden IDs
-    const formData = new URLSearchParams();
-    formData.append('entry.710033576', name);
-    formData.append('entry.1066464981', age);
-    formData.append('entry.1132809811', email);
-
-    // The silent form submission link
-    const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScNX9jCH2H8GNyuJb8wMSeF0Kxf7gr5innE4XSQMy7KATqUfw/formResponse';
-
-    // Send the data silently using "no-cors" so the page doesn't redirect
-    fetch(formUrl, {
-        method: 'POST',
-        mode: 'no-cors',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: formData
-    }).then(() => {
-        // Hide the modal instantly so they can take the test
-        document.getElementById('visitor-modal').style.display = 'none';
-    }).catch(error => {
-        console.error('Network issue, letting user in anyway', error);
-        document.getElementById('visitor-modal').style.display = 'none';
+    // 1. Check if the user is already registered in Local Storage
+    document.addEventListener("DOMContentLoaded", function() {
+        const storedEmail = localStorage.getItem('cuetSim_email');
+        if (storedEmail) {
+            // They have visited before! Hide the modal instantly.
+            document.getElementById('visitor-modal').style.display = 'none';
+        }
     });
-});
+
+    // 2. Handle the form submission for NEW visitors
+    document.getElementById('visitor-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const submitBtn = document.getElementById('v-submit');
+        submitBtn.innerHTML = 'Opening Simulator...';
+        submitBtn.disabled = true;
+    
+        // Grab the user's answers
+        const name = document.getElementById('v-name').value;
+        const age = document.getElementById('v-age').value;
+        const email = document.getElementById('v-email').value;
+    
+        // Map them to your specific Google Form hidden IDs
+        const formData = new URLSearchParams();
+        formData.append('entry.710033576', name);
+        formData.append('entry.1066464981', age);
+        formData.append('entry.1132809811', email);
+    
+        // The silent form submission link
+        const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScNX9jCH2H8GNyuJb8wMSeF0Kxf7gr5innE4XSQMy7KATqUfw/formResponse';
+    
+        // Send the data silently using "no-cors"
+        fetch(formUrl, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: formData
+        }).then(() => {
+            // SAVE their details in Local Storage so they don't have to do this again
+            localStorage.setItem('cuetSim_name', name);
+            localStorage.setItem('cuetSim_email', email);
+            
+            // Hide the modal instantly so they can take the test
+            document.getElementById('visitor-modal').style.display = 'none';
+        }).catch(error => {
+            console.error('Network issue, letting user in anyway', error);
+            // Even if it fails, save them so they aren't annoyed next time
+            localStorage.setItem('cuetSim_email', email); 
+            document.getElementById('visitor-modal').style.display = 'none';
+        });
+    });
 </script>
 </body>
 </html>
