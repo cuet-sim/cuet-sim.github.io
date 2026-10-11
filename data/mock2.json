@@ -231,7 +231,7 @@
       "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)"
     ],
     "correct": 0,
-    "explanation": "In a Binomial distribution, variance ($npq$) is less than the mean ($np$) because $q < 1$ (IV). In a Poisson distribution, the mean exactly equals the variance ($\lambda$) (I). The Normal distribution is perfectly symmetrical, so Mean = Median = Mode (II). The Uniform distribution features a constant probability (flat line) across an interval (III)."
+    "explanation": "In a Binomial distribution, variance ($npq$) is less than the mean ($np$) because $q < 1$ (IV). In a Poisson distribution, the mean exactly equals the variance ($\\lambda$) (I). The Normal distribution is perfectly symmetrical, so Mean = Median = Mode (II). The Uniform distribution features a constant probability (flat line) across an interval (III)."
   },
   {
     "id": 19,
@@ -377,7 +377,7 @@
     "explanation": "Adam Smith authored the theory of Absolute Advantage in 1776 (III). David Ricardo introduced Comparative Advantage in 1817 (I). Raymond Vernon developed the Product Life Cycle theory in 1966 to explain shifting trade patterns based on product maturity (II). Heckscher and Ohlin created the Factor Endowment theory (IV)."
   },
   {
-  "id": 30,
+    "id": 30,
     "section": "Indian Economy & Public Economics",
     "q": "Which of the following conditions must be satisfied for a good to be classified strictly as a 'Pure Public Good' in economic theory?",
     "options": [
