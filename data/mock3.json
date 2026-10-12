@@ -1,0 +1,976 @@
+[
+  {
+    "id": 1,
+    "section": "Microeconomics",
+    "q": "If a firm's total cost function is given by $TC = 100 + 5Q + Q^2$, what is the algebraic equation for the Average Variable Cost (AVC)?",
+    "options": [
+      "100/Q + 5 + Q",
+      "5 + Q",
+      "5 + 2Q",
+      "100/Q"
+    ],
+    "correct": 1,
+    "explanation": "Total Cost (TC) is the sum of Fixed Cost (FC) and Variable Cost (VC). Here, FC = 100 and VC = $5Q + Q^2$. Average Variable Cost (AVC) is VC divided by Q. Therefore, AVC = $(5Q + Q^2) / Q = 5 + Q$."
+  },
+  {
+    "id": 2,
+    "section": "Macroeconomics",
+    "q": "In a simple Keynesian model, if the marginal propensity to save (MPS) is 0.25 and the proportional tax rate ($t$) is 0.2, what is the value of the government expenditure multiplier?",
+    "options": [
+      "2.0",
+      "2.5",
+      "4.0",
+      "5.0"
+    ],
+    "correct": 1,
+    "explanation": "The formula for the multiplier with a proportional tax is $1 / [1 - MPC(1 - t)]$. Since MPS = 0.25, MPC = 0.75. Substituting the values: $1 / [1 - 0.75(1 - 0.2)] = 1 / [1 - 0.75(0.8)] = 1 / [1 - 0.6] = 1 / 0.4 = 2.5$."
+  },
+  {
+    "id": 3,
+    "section": "Statistical & Mathematical Methods",
+    "q": "For a given $3 \\times 3$ square matrix $A$, the eigenvalues are calculated to be 2, 3, and 5. What is the exact determinant of matrix $A$?",
+    "options": [
+      "10",
+      "15",
+      "30",
+      "0"
+    ],
+    "correct": 2,
+    "explanation": "A fundamental property of linear algebra states that the determinant of any square matrix is exactly equal to the mathematical product of its eigenvalues. Therefore, Determinant = $2 \\times 3 \\times 5 = 30$."
+  },
+  {
+    "id": 4,
+    "section": "Indian Economy & Public Economics",
+    "q": "Which major expert committee on poverty estimation in India formally shifted the methodology away from calorie-intake baselines and recommended the use of a 'Mixed Reference Period' (MRP)?",
+    "options": [
+      "Lakdawala Committee",
+      "Suresh Tendulkar Committee",
+      "C. Rangarajan Committee",
+      "Y.K. Alagh Committee"
+    ],
+    "correct": 1,
+    "explanation": "The Suresh Tendulkar Committee (2009) fundamentally changed India's poverty estimation by moving away from strictly calorie-based calculations to a broader consumption basket (including health and education) and utilizing the Mixed Reference Period (MRP)."
+  },
+  {
+    "id": 5,
+    "section": "International Trade & Growth",
+    "q": "Match the prominent International Trade models (List-I) with their core underlying assumptions (List-II):\n\nList-I\n(A) Adam Smith\n(B) David Ricardo\n(C) Heckscher-Ohlin\n(D) Raymond Vernon\n\nList-II\n(I) Product Life Cycle\n(II) Absolute Advantage\n(III) Factor Endowments\n(IV) Comparative Advantage\n\nChoose the correct answer:",
+    "options": [
+      "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+      "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)",
+      "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+      "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)"
+    ],
+    "correct": 0,
+    "explanation": "Adam Smith introduced Absolute Advantage (II). David Ricardo introduced Comparative Advantage based on opportunity costs (IV). Heckscher-Ohlin relies on differing National Factor Endowments (III). Raymond Vernon developed the Product Life Cycle model (I)."
+  },
+  {
+    "id": 6,
+    "section": "Microeconomics",
+    "q": "If the market demand function for a good is given by $P = 100 - 2Q$, at what exact price ($P$) will the price elasticity of demand be exactly unitary (i.e., exactly -1)?",
+    "options": [
+      "25",
+      "50",
+      "75",
+      "100"
+    ],
+    "correct": 1,
+    "explanation": "Unitary elasticity occurs exactly at the midpoint of a linear demand curve. The price intercept (when $Q=0$) is $P = 100$. The quantity intercept (when $P=0$) is $Q = 50$. The midpoint is at $P = 50$ and $Q = 25$. Alternatively, using calculus: $E = (P/Q) \\times (dQ/dP) = -1 \\Rightarrow (P/Q) \\times (-0.5) = -1 \\Rightarrow P = 2Q$. Substitute into demand: $2Q = 100 - 2Q \\Rightarrow 4Q = 100 \\Rightarrow Q = 25$, so $P = 50$."
+  },
+  {
+    "id": 7,
+    "section": "Macroeconomics",
+    "q": "In the standard IS-LM framework, an exogenous increase in the money supply by the central bank will initially cause the LM curve to shift to the ____ and the equilibrium interest rate to ____.",
+    "options": [
+      "Right ; Increase",
+      "Right ; Decrease",
+      "Left ; Increase",
+      "Left ; Decrease"
+    ],
+    "correct": 1,
+    "explanation": "An increase in the money supply creates excess liquidity. To induce the public to hold this extra money, the interest rate must fall. This shifts the LM curve outward (to the right), resulting in a new equilibrium with a lower interest rate and higher aggregate income."
+  },
+  {
+    "id": 8,
+    "section": "Statistical & Mathematical Methods",
+    "q": "Which of the following continuous probability distributions is characteristically perfectly symmetric, meaning its mean, median, and mode are mathematically identical?",
+    "options": [
+      "Poisson Distribution",
+      "Normal Distribution",
+      "Chi-square Distribution",
+      "F-Distribution"
+    ],
+    "correct": 1,
+    "explanation": "The Normal Distribution produces a perfectly symmetrical, bell-shaped curve where the data is evenly distributed around the center. Consequently, the mean, median, and mode all fall exactly at the highest peak of the curve."
+  },
+  {
+    "id": 9,
+    "section": "Public Economics",
+    "q": "According to the principles of public finance, the deadweight loss (excess burden) created by a commodity tax is mathematically proportional to the:",
+    "options": [
+      "Inverse of the tax rate",
+      "Square root of the tax rate",
+      "Logarithm of the tax rate",
+      "Square of the tax rate"
+    ],
+    "correct": 3,
+    "explanation": "The formula for the deadweight loss of a tax is roughly $DWL = 0.5 \\times \\text{Elasticity} \\times \\text{Quantity} \\times t^2$, where $t$ is the tax rate. Because the tax rate is squared, doubling a tax actually quadruples its deadweight loss."
+  },
+  {
+    "id": 10,
+    "section": "Microeconomics",
+    "q": "In the Cournot duopoly model (assuming constant, identical marginal costs and a linear market demand), what is the total combined output produced by both firms in equilibrium?",
+    "options": [
+      "1/2 of the perfectly competitive output",
+      "2/3 of the perfectly competitive output",
+      "3/4 of the perfectly competitive output",
+      "Equal to the perfectly competitive output"
+    ],
+    "correct": 1,
+    "explanation": "In a Cournot duopoly, each firm produces exactly 1/3 of the perfectly competitive market output. Combined, the two firms produce 2/3 of the competitive output. (By contrast, a pure monopoly produces 1/2 of the competitive output)."
+  },
+  {
+    "id": 11,
+    "section": "Indian Economy & Public Economics",
+    "q": "The Mahalanobis strategy, which formed the architectural basis of India's Second Five-Year Plan, was structurally heavily influenced by which classic Soviet-era growth model?",
+    "options": [
+      "Feldman Model",
+      "Solow-Swan Model",
+      "Lewis Two-Sector Model",
+      "Rostow's Stages of Growth"
+    ],
+    "correct": 0,
+    "explanation": "P.C. Mahalanobis developed his heavy-industry-focused model independently, but it was mathematically and structurally nearly identical to the model developed by Soviet economist G.A. Feldman in 1928, leading it to often be referred to as the Feldman-Mahalanobis model."
+  },
+  {
+    "id": 12,
+    "section": "Macroeconomics",
+    "q": "According to the Expectations-Augmented Phillips Curve (Natural Rate Hypothesis), the short-run Phillips curve will physically shift upward or downward strictly in response to changes in:",
+    "options": [
+      "The actual inflation rate",
+      "The natural rate of unemployment",
+      "The expected inflation rate",
+      "The level of real GDP"
+    ],
+    "correct": 2,
+    "explanation": "The Expectations-Augmented Phillips curve posits that the trade-off between inflation and unemployment depends on expectations. If workers expect higher inflation in the future, they demand higher nominal wages now, which shifts the entire short-run Phillips curve upward."
+  },
+  {
+    "id": 13,
+    "section": "International Trade & Growth",
+    "q": "Assuming the theory of Relative Purchasing Power Parity (PPP) holds true, if the annual inflation rate is 6% in India and 2% in the USA, what should theoretically happen to the nominal exchange rate (INR/USD)?",
+    "options": [
+      "The INR will appreciate by approximately 4%",
+      "The INR will depreciate by approximately 4%",
+      "The INR will depreciate by approximately 8%",
+      "The INR will appreciate by approximately 8%"
+    ],
+    "correct": 1,
+    "explanation": "Relative PPP states that the rate of change in the exchange rate between two countries is roughly equal to the difference in their inflation rates. Since India's inflation is 4% higher than the USA's ($6\\% - 2\\%$), the purchasing power of the Rupee falls faster, causing the INR to depreciate by roughly 4% against the USD."
+  },
+  {
+    "id": 14,
+    "section": "Statistical & Mathematical Methods",
+    "q": "The first-order necessary condition for a continuous function $f(x)$ to reach a local maximum at $x=a$ is $f'(a) = 0$. What is the required second-order sufficient condition?",
+    "options": [
+      "f''(a) > 0",
+      "f''(a) < 0",
+      "f''(a) = 0",
+      "f''(a) is completely undefined"
+    ],
+    "correct": 1,
+    "explanation": "For an extremum to be a local maximum, the function must be concave at that point. Mathematically, this means the second derivative must be strictly less than zero ($f''(a) < 0$). If $f''(a) > 0$, the point would be a local minimum."
+  },
+  {
+    "id": 15,
+    "section": "Public Economics",
+    "q": "The Coase Theorem postulates that private parties can negotiate to an efficient, Pareto-optimal resolution of negative externalities without government intervention, provided that:",
+    "options": [
+      "Property rights are strictly communal and owned by the state.",
+      "The number of negotiating parties is extremely large.",
+      "Property rights are clearly defined and transaction costs are virtually zero.",
+      "The government heavily subsidizes the injured party."
+    ],
+    "correct": 2,
+    "explanation": "Ronald Coase proved that if property rights are perfectly defined (regardless of who actually holds them) and there are no costs to bargaining/transacting, the involved parties will naturally negotiate an outcome that efficiently internalizes the externality."
+  },
+  {
+    "id": 16,
+    "section": "Microeconomics",
+    "q": "Assertion (A): Monopoly power is the ability to set price above marginal cost, and the amount by which price exceeds marginal cost depends inversely on the price elasticity of demand.\nReason (R): Monopoly power is determined solely by the total number of competing buyers in the market.\n\nIn the light of the above statements, choose the most appropriate answer:",
+    "options": [
+      "Both A and R are correct and R is the correct explanation of A",
+      "Both A and R are correct but R is NOT the correct explanation of A",
+      "A is correct but R is not correct",
+      "A is not correct but R is correct"
+    ],
+    "correct": 2,
+    "explanation": "Assertion A is true; the Lerner Index $(P - MC)/P = 1/|e|$ mathematically proves that monopoly power is inversely related to the price elasticity of demand. Reason R is false; monopoly power depends on the number of sellers, barriers to entry, and product differentiation, not the number of buyers."
+  },
+  {
+    "id": 17,
+    "section": "Statistical & Mathematical Methods",
+    "q": "If a firm's Average Cost (AC) function is given by $AC = 5 + 2/Q$, what is the derivative of the Average Cost with respect to output ($Q$)?",
+    "options": [
+      "-2/Q^2",
+      "2/Q^2",
+      "2/Q",
+      "-1/Q^2"
+    ],
+    "correct": 0,
+    "explanation": "To find the derivative of $AC = 5 + 2Q^{-1}$, apply the power rule. The derivative of a constant (5) is 0. The derivative of $2Q^{-1}$ is $-1 \\times 2Q^{-2} = -2/Q^2$."
+  },
+  {
+    "id": 18,
+    "section": "Macroeconomics",
+    "q": "In a simple two-sector economy, consumption is given by $C = 40 + 0.75Y$ and autonomous investment is $I = 60$. What are the equilibrium levels of output ($Y$), consumption ($C$), and saving ($S$), respectively?",
+    "options": [
+      "400, 340, 60",
+      "340, 400, 60",
+      "400, 60, 340",
+      "440, 300, 60"
+    ],
+    "correct": 0,
+    "explanation": "Equilibrium occurs where $Y = C + I$. \n$Y = 40 + 0.75Y + 60$ \n$Y - 0.75Y = 100$ \n$0.25Y = 100 \\Rightarrow Y = 400$. \nSubstitute Y back into the consumption function: $C = 40 + 0.75(400) = 40 + 300 = 340$. \nSaving $S = Y - C = 400 - 340 = 60$."
+  },
+  {
+    "id": 19,
+    "section": "Indian Economy & Public Economics",
+    "q": "Arrange the following industrial developments in colonial India in chronological order, from oldest to most recent:\n(A) Establishment of the first successful Cotton Textile Mill in Bombay\n(B) Establishment of the first Jute Mill in Bengal\n(C) Establishment of the Tata Iron and Steel Company (TISCO) in Jamshedpur\n\nChoose the correct sequence:",
+    "options": [
+      "(A), (B), (C)",
+      "(B), (A), (C)",
+      "(A), (C), (B)",
+      "(C), (A), (B)"
+    ],
+    "correct": 0,
+    "explanation": "The first successful cotton textile mill was established in Bombay in 1854 (A). The first jute mill was set up in Rishra, Bengal in 1855 (B). TISCO was established much later in Jamshedpur in 1907 (C)."
+  },
+  {
+    "id": 20,
+    "section": "Public Economics",
+    "q": "Market failure arises in the provision of a pure public good primarily due to the phenomenon of:",
+    "options": [
+      "Rivalry in consumption",
+      "The Free-Rider Problem",
+      "Overpricing by monopolies",
+      "Information asymmetry"
+    ],
+    "correct": 1,
+    "explanation": "Because pure public goods are non-excludable, individuals can consume the good without paying for it. This creates the 'free-rider problem', leading private markets to severely under-provide or entirely fail to provide the good."
+  },
+  {
+    "id": 21,
+    "section": "Microeconomics",
+    "q": "For a market demand function given by $P = 60 - Q^2$, what is the exact point price elasticity of demand at a price of $P = 44$?",
+    "options": [
+      "-1.375",
+      "-1.000",
+      "-0.750",
+      "-2.500"
+    ],
+    "correct": 0,
+    "explanation": "First, find quantity Q when P = 44: $44 = 60 - Q^2 \\Rightarrow Q^2 = 16 \\Rightarrow Q = 4$. \nNext, find the derivative $dP/dQ = -2Q$. At Q = 4, $dP/dQ = -8$. \nThe elasticity formula is $E = (P/Q) \\times (dQ/dP)$. Since $dP/dQ = -8$, the inverse $dQ/dP = -1/8$. \n$E = (44/4) \\times (-1/8) = 11 \\times (-1/8) = -11/8 = -1.375$."
+  },
+  {
+    "id": 22,
+    "section": "Statistical & Mathematical Methods",
+    "q": "Given the multivariable function $Z = x^2 + 3xy^2 + y$, what is the partial derivative of Z with respect to x ($\\partial Z / \\partial x$)?",
+    "options": [
+      "2x + 3y^2",
+      "6xy + 1",
+      "2x + 6xy",
+      "3y^2 + 1"
+    ],
+    "correct": 0,
+    "explanation": "To find the partial derivative with respect to x, treat y as a constant. The derivative of $x^2$ is $2x$. The derivative of $3xy^2$ with respect to x is $3y^2$. The derivative of the lone $y$ term is 0. Therefore, $\\partial Z / \\partial x = 2x + 3y^2$."
+  },
+  {
+    "id": 23,
+    "section": "Macroeconomics",
+    "q": "Consider the standard IS-LM macroeconomic framework. Which of the following statements is mathematically true?",
+    "options": [
+      "A rise in the general price level shifts the LM curve to the left.",
+      "The IS curve shifts to the left when government expenditure rises.",
+      "A liquidity trap makes the LM curve perfectly vertical.",
+      "A decrease in the money supply shifts the LM curve to the right."
+    ],
+    "correct": 0,
+    "explanation": "A rise in the general price level (P) mathematically reduces the real money supply ($M/P$). This creates a shortage of real money balances, driving up the interest rate at every level of income, which geometrically shifts the LM curve to the left."
+  },
+  {
+    "id": 24,
+    "section": "Microeconomics",
+    "q": "The standard convex shape of an indifference curve strictly implies that the Marginal Rate of Substitution (MRS) ________ as a consumer moves ________ along the curve.",
+    "options": [
+      "decreases ; downwards",
+      "increases ; upwards",
+      "decreases ; upwards",
+      "remains constant ; downwards"
+    ],
+    "correct": 0,
+    "explanation": "As a consumer moves downwards along an indifference curve, they accumulate more of good X and less of good Y. Due to the law of diminishing marginal utility, they are willing to give up fewer and fewer units of Y to obtain an additional unit of X, meaning the MRS systematically decreases."
+  },
+  {
+    "id": 25,
+    "section": "Macroeconomics",
+    "q": "Which of the following instruments are used by the Reserve Bank of India (RBI) to directly control the volume of credit in the economy?\n(A) Change in Cash Reserve Ratio (CRR)\n(B) Open Market Operations (OMO)\n(C) Change in Bank Rate\n(D) Changes in Income Tax brackets",
+    "options": [
+      "(A), (B), and (C) only",
+      "(A) and (B) only",
+      "(B), (C), and (D) only",
+      "(A), (B), (C), and (D)"
+    ],
+    "correct": 0,
+    "explanation": "CRR, OMOs, and the Bank Rate are all primary monetary policy tools utilized by the RBI to regulate credit creation and liquidity. Income tax brackets (D) are fiscal policy tools determined by the Ministry of Finance, not the RBI."
+  },
+  {
+    "id": 26,
+    "section": "Microeconomics",
+    "q": "Which of the following is an accurate mathematical property of short-run cost curves?",
+    "options": [
+      "Marginal Cost (MC) intersects Average Total Cost (ATC) and Average Variable Cost (AVC) exactly at their minimum points.",
+      "Average Fixed Cost (AFC) remains constant as output increases.",
+      "The Long-Run Average Cost (LRAC) curve is the vertical summation of all Short-Run Average Cost (SAC) curves.",
+      "Total Fixed Cost (TFC) becomes exactly zero when output drops to zero."
+    ],
+    "correct": 0,
+    "explanation": "The relationship between marginals and averages mathematically guarantees that the MC curve will pass directly through the absolute lowest points of both the U-shaped AVC and ATC curves."
+  },
+  {
+    "id": 27,
+    "section": "Statistical & Mathematical Methods",
+    "q": "Which of the following is a mathematically accurate statement regarding measures of statistical dispersion?",
+    "options": [
+      "The Coefficient of Variation (CV) is a unit-free relative measure of dispersion.",
+      "The Variance is calculated as the square root of the Standard Deviation.",
+      "The Interquartile Range (IQR) is calculated by adding the third and first quartiles ($Q_3 + Q_1$).",
+      "The Range is a highly robust measure that is highly resistant to extreme outlier values."
+    ],
+    "correct": 0,
+    "explanation": "The Coefficient of Variation is calculated as $(\\sigma / \\mu) \\times 100$. Because the units of the standard deviation and the mean cancel each other out, the CV is a pure, unit-free percentage, allowing for the direct comparison of dispersion between completely different datasets."
+  },
+  {
+    "id": 28,
+    "section": "International Trade & Growth",
+    "q": "According to the Heckscher-Ohlin (H-O) theory, international trade between two nations primarily arises due to fundamental differences in:",
+    "options": [
+      "Relative factor endowments",
+      "Absolute levels of technological advancement",
+      "Consumer tastes and preferences",
+      "Domestic taxation policies"
+    ],
+    "correct": 0,
+    "explanation": "The H-O model assumes that technology and consumer preferences are identical across nations. It isolates relative factor endowments (the abundance of capital vs. labor) as the sole determinant of comparative advantage and trade patterns."
+  },
+  {
+    "id": 29,
+    "section": "Indian Economy & Public Economics",
+    "q": "According to the standard agricultural landholding classifications in India, a 'Marginal' farmer is officially defined as one who possesses an operational landholding size of:",
+    "options": [
+      "Up to 1 hectare",
+      "Between 1 to 2 hectares",
+      "Between 2 to 4 hectares",
+      "Between 4 to 10 hectares"
+    ],
+    "correct": 0,
+    "explanation": "In Indian agricultural census classifications: Marginal farmers hold up to 1 hectare. Small farmers hold 1 to 2 hectares. Semi-medium farmers hold 2 to 4 hectares. Medium farmers hold 4 to 10 hectares. Large farmers hold above 10 hectares."
+  },
+  {
+    "id": 30,
+    "section": "Macroeconomics",
+    "q": "In a two-sector model, the demand for real money balances is $L = 0.20Y - 5i$ and the nominal money supply is $M = 120$. Assuming the price level ($P$) is exactly 1, what is the algebraic equation for the LM curve (expressing the interest rate $i$ as a function of aggregate income $Y$)?",
+    "options": [
+      "i = 0.04Y - 24",
+      "i = 0.10Y + 88",
+      "i = 0.04Y + 24",
+      "i = 0.20Y - 120"
+    ],
+    "correct": 0,
+    "explanation": "The LM curve represents equilibrium in the money market, where money supply equals money demand: $M/P = L$. \nSubstitute the values: $120/1 = 0.20Y - 5i$. \nRearrange to solve for $i$: $5i = 0.20Y - 120$. \nDivide the entire equation by 5: $i = 0.04Y - 24$."
+  },
+  {
+    "id": 31,
+    "section": "Mathematical Methods in Economics",
+    "q": "For a multivariable function $Z = f(x,y)$ to have a strict local minimum at a critical point, what must be the mathematical conditions for the second-order partial derivatives?",
+    "options": [
+      "f_xx > 0, f_yy > 0, and f_xx*f_yy - (f_xy)^2 > 0",
+      "f_xx < 0, f_yy < 0, and f_xx*f_yy - (f_xy)^2 > 0",
+      "f_xx > 0, f_yy > 0, and f_xx*f_yy - (f_xy)^2 < 0",
+      "f_xx < 0, f_yy > 0, and f_xx*f_yy - (f_xy)^2 > 0"
+    ],
+    "correct": 0,
+    "explanation": "For a local minimum, the function must be convex at that point. Mathematically, the Hessian determinant must be positive ($f_{xx}f_{yy} - (f_{xy})^2 > 0$) to ensure it is an extremum (not a saddle point), and the direct second derivatives ($f_{xx}$ and $f_{yy}$) must be strictly greater than zero."
+  },
+  {
+    "id": 32,
+    "section": "Macroeconomics",
+    "q": "In the IS-LM model, if the interest elasticity of money demand approaches infinity (making the LM curve perfectly horizontal), the crowding-out effect of an expansionary fiscal policy will be:",
+    "options": [
+      "Complete (100%)",
+      "Zero",
+      "Partial",
+      "Negative"
+    ],
+    "correct": 1,
+    "explanation": "A horizontal LM curve represents a 'Liquidity Trap'. In this state, an outward shift of the IS curve (expansionary fiscal policy) does not raise the interest rate at all. Because the interest rate remains unchanged, private investment does not fall, meaning the crowding-out effect is exactly zero."
+  },
+  {
+    "id": 33,
+    "section": "Microeconomics",
+    "q": "If a monopolist is producing at an output level where the absolute price elasticity of demand is $|e| = 0.5$, the firm's Marginal Revenue (MR) is mathematically:",
+    "options": [
+      "Positive",
+      "Exactly zero",
+      "Negative",
+      "Equal to Price"
+    ],
+    "correct": 2,
+    "explanation": "The relationship between MR, Price, and elasticity is $MR = P(1 - 1/|e|)$. If elasticity is $0.5$, then $1/|e| = 2$. Substituting this in: $MR = P(1 - 2) = -P$. Since price is always positive, MR must be negative. A profit-maximizing monopolist will never operate on the inelastic portion ($|e| < 1$) of the demand curve."
+  },
+  {
+    "id": 34,
+    "section": "Statistical & Mathematical Methods",
+    "q": "In a Poisson distribution, if the probability of exactly 1 success equals the probability of exactly 2 successes ($P(X=1) = P(X=2)$), what is the mean ($\\lambda$) of the distribution?",
+    "options": [
+      "1",
+      "2",
+      "0.5",
+      "4"
+    ],
+    "correct": 1,
+    "explanation": "The Poisson probability formula is $P(X=x) = e^{-\\lambda} \\lambda^x / x!$. Equating $P(X=1)$ and $P(X=2)$: $(e^{-\\lambda} \\lambda^1) / 1! = (e^{-\\lambda} \\lambda^2) / 2!$. Canceling $e^{-\\lambda}$ and one $\\lambda$ from both sides gives $1 = \\lambda / 2$, which implies $\\lambda = 2$."
+  },
+  {
+    "id": 35,
+    "section": "Indian Economy & Public Economics",
+    "q": "Arrange the following major agricultural programs in India in chronological order of their launch:\n(A) National Food Security Mission (NFSM)\n(B) High Yielding Varieties Programme (HYVP - Green Revolution)\n(C) Intensive Agricultural District Programme (IADP)\n(D) Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "options": [
+      "(B), (C), (A), (D)",
+      "(C), (B), (A), (D)",
+      "(C), (B), (D), (A)",
+      "(A), (C), (B), (D)"
+    ],
+    "correct": 1,
+    "explanation": "The IADP was launched in 1960 to test intensive farming (C). The HYVP (Green Revolution) officially started around 1966 (B). The NFSM was launched in 2007 to increase crop production (A). PMFBY (crop insurance) was introduced in 2016 (D)."
+  },
+  {
+    "id": 36,
+    "section": "International Trade & Growth",
+    "q": "The Effective Rate of Protection (ERP) will be strictly and mathematically equal to the Nominal Rate of Protection (NRP) on the final commodity when:",
+    "options": [
+      "The tariff on imported inputs is exactly zero.",
+      "The tariff on imported inputs is strictly greater than the tariff on the final commodity.",
+      "The nominal tariff on imported inputs is exactly equal to the nominal tariff on the final commodity.",
+      "The country imports absolutely no raw materials."
+    ],
+    "correct": 2,
+    "explanation": "The formula for ERP is $g = (t - a_i t_i) / (1 - a_i)$. If the nominal tariff on the final good ($t$) is exactly equal to the nominal tariff on the imported input ($t_i$), the formula simplifies mathematically to $g = t(1 - a_i) / (1 - a_i) = t$."
+  },
+  {
+    "id": 37,
+    "section": "Public Economics",
+    "q": "The Ramsey Rule of optimal commodity taxation suggests that to minimize overall deadweight loss, tax rates across different markets should be set:",
+    "options": [
+      "Inversely proportional to the price elasticity of demand for the goods.",
+      "Directly proportional to the price elasticity of demand for the goods.",
+      "Inversely proportional to the prices of the goods.",
+      "Exactly equal across all commodities regardless of elasticity."
+    ],
+    "correct": 0,
+    "explanation": "The Ramsey Rule (the 'Inverse Elasticity Rule') mathematically proves that to minimize market distortion (deadweight loss), commodities with highly inelastic demand should be taxed at higher rates than commodities with highly elastic demand."
+  },
+  {
+    "id": 38,
+    "section": "Microeconomics",
+    "q": "A firm's total revenue function is $TR = 120Q - 2Q^2$ and its total cost function is $TC = 20Q + Q^2$. What is the profit-maximizing level of output ($Q$)?",
+    "options": [
+      "10",
+      "16.67",
+      "20",
+      "25"
+    ],
+    "correct": 1,
+    "explanation": "Profit maximization occurs where Marginal Revenue (MR) equals Marginal Cost (MC). \n$MR = d(TR)/dQ = 120 - 4Q$. \n$MC = d(TC)/dQ = 20 + 2Q$. \nSet them equal: $120 - 4Q = 20 + 2Q \\Rightarrow 100 = 6Q \\Rightarrow Q = 100 / 6 = 16.67$."
+  },
+  {
+    "id": 39,
+    "section": "Macroeconomics",
+    "q": "The Non-Accelerating Inflation Rate of Unemployment (NAIRU) mathematically corresponds to the specific point where:",
+    "options": [
+      "The short-run Phillips curve intersects the horizontal axis.",
+      "Actual inflation is exactly equal to expected inflation.",
+      "The long-run aggregate supply curve becomes perfectly horizontal.",
+      "Real wages equal exactly zero."
+    ],
+    "correct": 1,
+    "explanation": "At NAIRU (often synonymous with the natural rate of unemployment), the economy is at a steady state where the actual inflation rate perfectly matches the expected inflation rate, preventing inflation from accelerating."
+  },
+  {
+    "id": 40,
+    "section": "Statistical & Mathematical Methods",
+    "q": "If the variance of a random variable $X$ is calculated as $Var(X) = 15$, what will be the exact variance of the new manipulated variable $Y = 3X - 5$?",
+    "options": [
+      "40",
+      "45",
+      "130",
+      "135"
+    ],
+    "correct": 3,
+    "explanation": "A core property of variance is that adding or subtracting a constant does not change the spread, but multiplying by a constant scales the variance by the square of that constant. Formula: $Var(aX + b) = a^2 Var(X)$. Here, $a=3, b=-5$. So, $Var(3X - 5) = 3^2 \\times 15 = 9 \\times 15 = 135$."
+  },
+  {
+    "id": 41,
+    "section": "Indian Economy & Public Economics",
+    "q": "The landmark Narasimham Committee I (1991) on financial sector reforms in India primarily recommended:",
+    "options": [
+      "The complete nationalization of all remaining private banks.",
+      "A significant reduction in the Statutory Liquidity Ratio (SLR) and Cash Reserve Ratio (CRR).",
+      "Banning the entry of foreign banks into the Indian economy.",
+      "Replacing the Reserve Bank of India with a new central banking authority."
+    ],
+    "correct": 1,
+    "explanation": "The Narasimham Committee I (1991) strongly recommended reducing the extremely high SLR and CRR to free up bank funds for productive commercial lending, along with introducing capital adequacy norms and allowing private/foreign banks."
+  },
+  {
+    "id": 42,
+    "section": "Microeconomics",
+    "q": "If a production function exhibits strictly increasing returns to scale, the corresponding Long-Run Average Cost (LRAC) curve will geometrically:",
+    "options": [
+      "Slope upwards from left to right",
+      "Be perfectly horizontal",
+      "Slope downwards from left to right",
+      "Form a rectangular hyperbola"
+    ],
+    "correct": 2,
+    "explanation": "Increasing returns to scale means that a proportional increase in inputs leads to a more-than-proportional increase in output. This mathematical efficiency dictates that the average cost per unit falls as production expands, leading to a downward-sloping LRAC curve (economies of scale)."
+  },
+  {
+    "id": 43,
+    "section": "Macroeconomics",
+    "q": "In the Solow Growth Model, the 'Golden Rule' level of capital accumulation refers specifically to the steady-state where:",
+    "options": [
+      "The savings rate is mathematically maximized.",
+      "Per capita consumption is perfectly maximized.",
+      "Per capita output grows at a constant 5% rate.",
+      "Population growth exactly equals capital depreciation."
+    ],
+    "correct": 1,
+    "explanation": "The Golden Rule of capital accumulation is the unique savings rate and corresponding steady-state capital stock that maximizes steady-state per capita consumption across generations. Mathematically, it occurs exactly where the Marginal Product of Capital (MPK) equals the population growth rate plus the depreciation rate."
+  },
+  {
+    "id": 44,
+    "section": "Statistical & Mathematical Methods",
+    "q": "The Fisher Ideal Index Number is mathematically defined as the:",
+    "options": [
+      "Arithmetic mean of the Laspeyres and Paasche indices",
+      "Geometric mean of the Laspeyres and Paasche indices",
+      "Harmonic mean of the Laspeyres and Paasche indices",
+      "Square of the Laspeyres index divided by the Paasche index"
+    ],
+    "correct": 1,
+    "explanation": "Irving Fisher's Ideal Index is calculated as the geometric mean of the Laspeyres (base-year weighted) and Paasche (current-year weighted) price indices, effectively neutralizing the upward and downward biases of both. Formula: $\\sqrt{L \\times P}$."
+  },
+  {
+    "id": 45,
+    "section": "International Trade & Growth",
+    "q": "In standard partial equilibrium trade theory, what is the primary economic difference between a mathematically equivalent import tariff and an import quota?",
+    "options": [
+      "A quota generates more deadweight loss than an equivalent tariff.",
+      "A tariff fails to increase domestic production, whereas a quota does.",
+      "A tariff generates tax revenue for the government, while a quota generally creates 'quota rents' for license holders.",
+      "A quota increases the world price of the good, whereas a tariff strictly lowers it."
+    ],
+    "correct": 2,
+    "explanation": "Assuming competitive markets, a tariff and an equivalent quota produce the exact same price, consumption, and domestic production effects. The primary difference is distributional: tariffs collect revenue for the importing government, whereas quotas create scarcity 'rents' that typically go to the domestic importers or foreign exporters holding the quota licenses."
+  },{
+    "id": 46,
+    "section": "Statistical & Mathematical Methods",
+    "q": "If the Marginal Revenue (MR) function of a firm is given by $MR = 100 - 2Q$, what is the exact Total Revenue (TR) when 10 units of output are sold?",
+    "options": [
+      "800",
+      "900",
+      "1000",
+      "1200"
+    ],
+    "correct": 1,
+    "explanation": "Total Revenue (TR) is the integral of the Marginal Revenue function. $\\int (100 - 2Q) dQ = 100Q - Q^2$. Substituting $Q = 10$, we get $100(10) - (10)^2 = 1000 - 100 = 900$."
+  },
+  {
+    "id": 47,
+    "section": "Statistical & Mathematical Methods",
+    "q": "If the Pearson correlation coefficient ($r$) between two variables X and Y is calculated as $-0.80$, what is the exact value of the coefficient of determination ($R^2$)?",
+    "options": [
+      "-0.64",
+      "0.64",
+      "0.80",
+      "0.16"
+    ],
+    "correct": 1,
+    "explanation": "The coefficient of determination ($R^2$) is simply the square of the correlation coefficient ($r$). Mathematically, $(-0.80)^2 = 0.64$. It represents the proportion of the variance in the dependent variable that is predictable from the independent variable, and it is always positive."
+  },
+  {
+    "id": 48,
+    "section": "Indian Economy & Public Economics",
+    "q": "In the history of colonial India, the devastating Great Famine of 1876-1878 led the British government to appoint the First Famine Commission in 1880. Who chaired this commission?",
+    "options": [
+      "John Lawrence",
+      "Richard Strachey",
+      "George Campbell",
+      "Anthony MacDonnell"
+    ],
+    "correct": 1,
+    "explanation": "The First Famine Commission was appointed in 1880 under the chairmanship of Sir Richard Strachey. It laid the foundation for the Famine Code, recommending that the state had a duty to provide relief to the starving population."
+  },
+  {
+    "id": 49,
+    "section": "Public Economics",
+    "q": "In environmental economics, to perfectly internalize a negative production externality (like pollution), a Pigouvian tax should mathematically be set exactly equal to the:",
+    "options": [
+      "Marginal Private Cost",
+      "Marginal Social Cost",
+      "Marginal External Cost at the socially optimal quantity",
+      "Total External Cost"
+    ],
+    "correct": 2,
+    "explanation": "A Pigouvian tax is designed to correct market failures caused by negative externalities. To achieve the socially optimal level of output, the tax per unit must be set exactly equal to the Marginal External Cost (the uncompensated damage) evaluated at the socially efficient production level."
+  },
+  {
+    "id": 50,
+    "section": "Macroeconomics",
+    "q": "If the currency-deposit ratio ($cr$) is 0.2 and the reserve-deposit ratio ($rr$) is 0.1, what is the exact value of the money multiplier ($m$)?",
+    "options": [
+      "2.5",
+      "3.0",
+      "4.0",
+      "5.0"
+    ],
+    "correct": 2,
+    "explanation": "The formula for the money multiplier incorporating currency holding is $m = (1 + cr) / (cr + rr)$. Substituting the values: $m = (1 + 0.2) / (0.2 + 0.1) = 1.2 / 0.3 = 4$."
+  },
+  {
+    "id": 51,
+    "section": "International Trade & Growth",
+    "q": "Which foundational international trade theorem mathematically breaks down and loses its predictive power if 'Factor Intensity Reversal' occurs between two trading nations?",
+    "options": [
+      "Theory of Absolute Advantage",
+      "Theory of Comparative Advantage",
+      "Heckscher-Ohlin Theorem",
+      "Product Life Cycle Theory"
+    ],
+    "correct": 2,
+    "explanation": "Factor Intensity Reversal (FIR) occurs when a good is labor-intensive in one country but capital-intensive in another. If FIR exists, the Heckscher-Ohlin Theorem (which assumes uniform factor intensities across countries) completely breaks down and cannot accurately predict the pattern of trade."
+  },
+  {
+    "id": 52,
+    "section": "Statistical & Mathematical Methods",
+    "q": "In a strictly positively skewed (right-skewed) distribution, what is the established mathematical relationship between the measures of central tendency?",
+    "options": [
+      "Mean < Median < Mode",
+      "Mean = Median = Mode",
+      "Mean > Median > Mode",
+      "Median > Mean > Mode"
+    ],
+    "correct": 2,
+    "explanation": "In a right-skewed distribution, the long tail extends to the right (towards higher positive values). The Mean is heavily pulled by these extreme high values, placing it to the right of the Median. The Mode remains at the highest peak (to the left). Thus, Mean > Median > Mode."
+  },
+  {
+    "id": 53,
+    "section": "Public Economics",
+    "q": "In public economics, if a specific per-unit tax is imposed on a market where the supply curve is perfectly inelastic (vertical) and the demand curve is standard downward-sloping, the entire tax burden falls on:",
+    "options": [
+      "Consumers",
+      "Producers",
+      "The Government",
+      "Shared equally between consumers and producers"
+    ],
+    "correct": 1,
+    "explanation": "Tax incidence falls entirely on the side of the market that is completely inelastic. If supply is perfectly inelastic, producers will supply the exact same quantity regardless of the price they receive. Therefore, they absorb the entire tax burden out of their profits, and the market price for consumers does not change."
+  },
+  {
+    "id": 54,
+    "section": "Statistical & Mathematical Methods",
+    "q": "For any upper triangular matrix (where all entries below the main diagonal are zero), its determinant is mathematically strictly equal to:",
+    "options": [
+      "Zero",
+      "The sum of its diagonal elements (Trace)",
+      "The product of its principal diagonal elements",
+      "One"
+    ],
+    "correct": 2,
+    "explanation": "A core theorem in linear algebra states that the determinant of any triangular matrix (whether upper or lower) or diagonal matrix is simply the mathematical product of the entries situated along its main (principal) diagonal."
+  },
+  {
+    "id": 55,
+    "section": "Macroeconomics",
+    "q": "Which of the following consumption theories mathematically postulates that individuals plan their consumption and savings behavior over their entire lifespan to smooth out consumption?",
+    "options": [
+      "Absolute Income Hypothesis",
+      "Relative Income Hypothesis",
+      "Permanent Income Hypothesis",
+      "Life Cycle Hypothesis"
+    ],
+    "correct": 3,
+    "explanation": "The Life Cycle Hypothesis, developed by Franco Modigliani, Richard Brumberg, and Albert Ando, theorizes that individuals base their consumption on their expected lifetime income, borrowing during youth, saving during prime earning years, and dissaving during retirement to maintain a smooth, constant standard of living."
+  },
+  {
+    "id": 56,
+    "section": "Indian Economy & Public Economics",
+    "q": "Which prominent committee was constituted by the Government of India in 2016 to comprehensively review and restructure the Fiscal Responsibility and Budget Management (FRBM) Act?",
+    "options": [
+      "Vijay Kelkar Committee",
+      "N.K. Singh Committee",
+      "C. Rangarajan Committee",
+      "Urjit Patel Committee"
+    ],
+    "correct": 1,
+    "explanation": "The N.K. Singh Committee was appointed in 2016 to review the FRBM Act of 2003. It recommended a shifting target for fiscal deficit and suggested introducing a public debt-to-GDP ratio target of 60% by 2023."
+  },
+  {
+    "id": 57,
+    "section": "Microeconomics",
+    "q": "In microeconomic production theory, the 'Ridge Lines' on an isoquant map define the economic region of production. Mathematically, along these ridge lines, the marginal product of one of the inputs is exactly:",
+    "options": [
+      "Maximized",
+      "Negative",
+      "Zero",
+      "Equal to the other input"
+    ],
+    "correct": 2,
+    "explanation": "Ridge lines connect the points on the isoquants where the marginal product of one factor of production is exactly zero. Production strictly inside the ridge lines is efficient (positive marginal products), while production outside them is inefficient (negative marginal products)."
+  },
+  {
+    "id": 58,
+    "section": "Statistical & Mathematical Methods",
+    "q": "A single card is drawn at random from a standard, well-shuffled deck of 52 cards. What is the mathematical probability that the card is either a King or a Heart?",
+    "options": [
+      "4/13",
+      "17/52",
+      "1/4",
+      "3/13"
+    ],
+    "correct": 0,
+    "explanation": "Use the addition rule: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$. \n$P(\\text{King}) = 4/52$. \n$P(\\text{Heart}) = 13/52$. \n$P(\\text{King and Heart}) = 1/52$. \n$4/52 + 13/52 - 1/52 = 16/52$. \nSimplifying $16/52$ gives $4/13$."
+  },
+  {
+    "id": 59,
+    "section": "Statistical & Mathematical Methods",
+    "q": "According to the Duality Theorem in Linear Programming, if the original primal problem is a maximization problem, its corresponding dual problem must logically be a:",
+    "options": [
+      "Maximization problem",
+      "Minimization problem",
+      "Non-linear problem",
+      "Zero-sum problem"
+    ],
+    "correct": 1,
+    "explanation": "Every linear prosgramming problem (the primal) has an associated problem (the dual). By definition, if the primal seeks to maximize an objective function (e.g., profit), the dual fundamentally seeks to minimize an objective function (e.g., resource cost), and their optimal objective values will be strictly equal."
+  },
+  {
+    "id": 60,
+    "section": "International Trade & Growth",
+    "q": "According to the Uncovered Interest Rate Parity (UIP) condition, if the domestic nominal interest rate is significantly higher than the foreign nominal interest rate, the domestic currency is theoretically expected to:",
+    "options": [
+      "Appreciate",
+      "Depreciate",
+      "Remain perfectly stable",
+      "Become a fixed exchange rate"
+    ],
+    "correct": 1,
+    "explanation": "UIP states that the difference in interest rates between two countries must equal the expected change in exchange rates. If domestic interest rates are higher, investors will flock to them. To prevent arbitrage, the market must expect the domestic currency to depreciate in the future, offsetting the higher interest yield."
+  },
+  {
+    "id": 61,
+    "section": "Microeconomics",
+    "q": "For the Cobb-Douglas production function $Q = 10 K^{0.4} L^{0.6}$, what type of returns to scale does the firm mathematically experience?",
+    "options": [
+      "Increasing Returns to Scale",
+      "Decreasing Returns to Scale",
+      "Constant Returns to Scale",
+      "Negative Returns to Scale"
+    ],
+    "correct": 2,
+    "explanation": "In a standard Cobb-Douglas production function $Q = A K^\\alpha L^\\beta$, the returns to scale are determined by the sum of the exponents ($\\alpha + \\beta$). Here, $0.4 + 0.6 = 1.0$. A sum of exactly 1 signifies Constant Returns to Scale (CRS)."
+  },
+  {
+    "id": 62,
+    "section": "Macroeconomics",
+    "q": "In the Harrod-Domar growth model, if a country's national savings rate ($s$) is 24% and its capital-output ratio ($v$) is 4, what is the strictly defined 'Warranted Rate of Growth' ($g_w$)?",
+    "options": [
+      "4%",
+      "6%",
+      "8%",
+      "96%"
+    ],
+    "correct": 1,
+    "explanation": "The warranted rate of growth in the Harrod-Domar model is calculated using the formula $g_w = s / v$. Substituting the given values: $g_w = 0.24 / 4 = 0.06$, which translates to a 6% growth rate."
+  },
+  {
+    "id": 63,
+    "section": "Statistical & Mathematical Methods",
+    "q": "In statistical hypothesis testing, a 'Type I Error' mathematically occurs when the researcher:",
+    "options": [
+      "Fails to reject a false null hypothesis",
+      "Rejects a true null hypothesis",
+      "Rejects a false null hypothesis",
+      "Fails to reject a true null hypothesis"
+    ],
+    "correct": 1,
+    "explanation": "A Type I error (often denoted by alpha, $\\alpha$) is a 'false positive'. It happens when the statistical test strictly rejects the null hypothesis even though the null hypothesis is actually true in reality. (A Type II error is failing to reject a false null)."
+  },
+  {
+    "id": 64,
+    "section": "Indian Economy & Public Economics",
+    "q": "What was the exact vertical devolution share of divisible tax revenues from the Centre to the States recommended by the 15th Finance Commission of India (for the period 2021-26)?",
+    "options": [
+      "32%",
+      "41%",
+      "42%",
+      "50%"
+    ],
+    "correct": 1,
+    "explanation": "The 14th Finance Commission had recommended a 42% share. The 15th Finance Commission, chaired by N.K. Singh, adjusted this slightly downwards to 41% to account for the newly formed Union Territories of Jammu & Kashmir and Ladakh."
+  },
+  {
+    "id": 65,
+    "section": "International Trade & Growth",
+    "q": "In the context of economic integration, a 'Customs Union' represents a stage of integration where member nations:",
+    "options": [
+      "Remove internal tariffs but maintain independent external tariffs.",
+      "Remove internal tariffs and adopt a common external tariff against non-members.",
+      "Allow the perfectly free movement of labor and capital across borders.",
+      "Adopt a single, unified currency."
+    ],
+    "correct": 1,
+    "explanation": "A Free Trade Area (FTA) only removes tariffs between members. A Customs Union goes one step further: it removes internal trade barriers AND establishes a Common External Tariff (CET) for all goods entering the union from non-member countries."
+  },
+  {
+    "id": 66,
+    "section": "Microeconomics",
+    "q": "In the Stackelberg duopoly model, what is the primary structural difference compared to the Cournot model?",
+    "options": [
+      "Firms compete purely on price rather than quantity.",
+      "Firms have completely different marginal costs.",
+      "Firms choose their output sequentially, creating a 'first-mover advantage'.",
+      "Firms collude perfectly to act as a single monopoly."
+    ],
+    "correct": 2,
+    "explanation": "While Cournot assumes simultaneous quantity setting, the Stackelberg model introduces sequential moves. The 'Leader' firm sets its quantity first, anticipating the 'Follower' firm's reaction, which mathematically yields a higher market share and profit for the leader."
+  },
+  {
+    "id": 67,
+    "section": "Macroeconomics",
+    "q": "The phenomenon of 'Stagflation'—the simultaneous occurrence of high inflation and high unemployment—is graphically represented by:",
+    "options": [
+      "A downward movement along the short-run Phillips curve",
+      "An upward movement along the short-run Phillips curve",
+      "An outward (rightward) shift of the entire short-run Phillips curve",
+      "An inward (leftward) shift of the entire short-run Phillips curve"
+    ],
+    "correct": 2,
+    "explanation": "Stagflation typically results from an adverse supply shock. This breaks the standard Phillips curve trade-off, causing both inflation and unemployment to rise simultaneously. Geometrically, this requires the entire short-run Phillips curve to shift outward (to the right)."
+  },
+  {
+    "id": 68,
+    "section": "Statistical & Mathematical Methods",
+    "q": "An essential mathematical property of the Ordinary Least Squares (OLS) regression line ($Y = \\alpha + \\beta X$) is that the sum of the OLS residuals ($\\sum e_i$) is always exactly:",
+    "options": [
+      "1",
+      "0",
+      "Minimized but strictly positive",
+      "Equal to the variance of X"
+    ],
+    "correct": 1,
+    "explanation": "By the exact mathematical derivation of the OLS estimators (specifically the first normal equation), the regression line is forced to pass exactly through the sample means of X and Y ($\\bar{X}, \\bar{Y}$). As a direct result, the positive and negative residuals perfectly cancel each other out, making their sum exactly zero."
+  },
+  {
+    "id": 69,
+    "section": "Indian Economy & Public Economics",
+    "q": "Which major policy document is historically referred to as the 'Economic Constitution of India' for its role in shaping the public sector's dominance in the post-independence era?",
+    "options": [
+      "The Bombay Plan of 1944",
+      "The Industrial Policy Resolution of 1948",
+      "The Industrial Policy Resolution of 1956",
+      "The New Economic Policy of 1991"
+    ],
+    "correct": 2,
+    "explanation": "The Industrial Policy Resolution (IPR) of 1956 classified industries into three strict schedules, giving the state an absolute monopoly over strategic and heavy industries. Because it laid the long-term foundation for India's socialist pattern of society, it is famously called the Economic Constitution."
+  },
+  {
+    "id": 70,
+    "section": "Public Economics",
+    "q": "The concept of 'Merit Goods', introduced by economist Richard Musgrave, refers to goods that:",
+    "options": [
+      "Are completely non-rival and non-excludable.",
+      "The government believes individuals will systematically under-consume if left to the free market.",
+      "Are highly taxed because they generate negative externalities.",
+      "Can only be produced efficiently by a natural monopoly."
+    ],
+    "correct": 1,
+    "explanation": "Merit goods (like education and healthcare) are goods that the government considers socially desirable but which citizens might undervalue due to imperfect information or ignoring long-term positive externalities, leading the state to subsidize or mandate them."
+  },
+  {
+    "id": 71,
+    "section": "Microeconomics",
+    "q": "If the government imposes a binding 'Price Ceiling' mathematically below the free-market equilibrium price, the direct result in the market will be:",
+    "options": [
+      "An excess supply (surplus) of the good",
+      "An excess demand (shortage) of the good",
+      "A rightward shift of the demand curve",
+      "A leftward shift of the supply curve"
+    ],
+    "correct": 1,
+    "explanation": "A price ceiling legally prevents the price from rising to equilibrium. At this artificially low price, the quantity demanded by consumers mathematically exceeds the quantity supplied by producers, creating a persistent shortage (excess demand) in the market."
+  },
+  {
+    "id": 72,
+    "section": "Mathematical Methods in Economics",
+    "q": "According to Young's Theorem in multivariable calculus, if a function $f(x,y)$ has continuous second-order partial derivatives, then:",
+    "options": [
+      "The first derivatives must equal zero.",
+      "The cross-partial derivatives are strictly equal ($f_{xy} = f_{yx}$).",
+      "The Hessian determinant must be strictly negative.",
+      "The function cannot have a local maximum."
+    ],
+    "correct": 1,
+    "explanation": "Young's Theorem (also known as Clairaut's theorem) states that the order of differentiation does not matter for continuous functions. Taking the partial derivative with respect to $x$ and then $y$ will yield the exact same mathematical result as deriving with respect to $y$ and then $x$."
+  },
+  {
+    "id": 73,
+    "section": "Statistical & Mathematical Methods",
+    "q": "If two perfectly fair, six-sided dice are rolled simultaneously, what is the exact probability that the sum of the numbers appearing on top is equal to 7?",
+    "options": [
+      "1/12",
+      "1/6",
+      "1/36",
+      "7/36"
+    ],
+    "correct": 1,
+    "explanation": "There are $6 \\times 6 = 36$ total possible outcomes. The combinations that sum to 7 are (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1). There are 6 successful outcomes. The probability is $6 / 36$, which simplifies to $1 / 6$."
+  },
+  {
+    "id": 74,
+    "section": "International Trade & Growth",
+    "q": "Wassily Leontief's famous 1953 empirical test of the Heckscher-Ohlin theorem resulted in a 'Paradox' because he discovered that the United States, arguably the most capital-abundant nation in the world at the time, was primarily:",
+    "options": [
+      "Exporting capital-intensive goods and importing labor-intensive goods.",
+      "Exporting labor-intensive goods and importing capital-intensive goods.",
+      "Running a massive structural trade deficit.",
+      "Importing exclusively primary agricultural commodities."
+    ],
+    "correct": 1,
+    "explanation": "The Heckscher-Ohlin model predicted that a capital-abundant country (like the US) would export capital-intensive goods. Leontief analyzed empirical input-output data and paradoxically found the exact opposite: US exports were more labor-intensive than US imports."
+  },
+  {
+    "id": 75,
+    "section": "Macroeconomics",
+    "q": "In macroeconomics, the term 'Seigniorage' specifically refers to:",
+    "options": [
+      "The total interest payments made on the national debt.",
+      "The revenue raised by the government through the printing of new money.",
+      "The deadweight loss associated with hyperinflation.",
+      "The foreign exchange reserves held by the central bank."
+    ],
+    "correct": 1,
+    "explanation": "Seigniorage is the profit made by a government by issuing currency, mathematically representing the difference between the face value of the money and the physical cost of producing it. In macroeconomic models, it refers to the real purchasing power the government extracts by printing new money."
+  }
+]
